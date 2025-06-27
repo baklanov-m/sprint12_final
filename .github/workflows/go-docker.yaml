@@ -2,10 +2,9 @@ name: Go CI/CD
 
 on:
   push:
-    branches:
-      - 2-iteration
-    tags:
-      - 'v*.*.*'
+    branches: [ "first-iteration" ]
+    pull_request:
+    branches: [ "first-iteration" ]
 
 jobs:
   test:
