@@ -2,9 +2,9 @@ name: Go CI/CD
 
 on:
   push:
-    branches: [ "first-iteration" ]
+    branches: [ "3-iteration" ]
     pull_request:
-    branches: [ "first-iteration" ]
+    branches: [ "3-iteration" ]
 
 jobs:
   test:
