@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "4-iteration" ]
     pull_request: [ "4-iteration" ]
-  tags:
-     - 'v*.*.*'
+    tags:
+      - 'v*.*.*'
 jobs:
   test:
     name: Lint & Test Go Code
