@@ -2,10 +2,10 @@ name: Go CI/CD
 
 on:
   push:
-    branches: [ "3-iteration" ]
-    pull_request:
-    branches: [ "3-iteration" ]
-
+    branches: [ "4-iteration" ]
+    pull_request: [ "4-iteration" ]
+    tags:
+      - 'v*.*.*'
 jobs:
   test:
     name: Lint & Test Go Code
